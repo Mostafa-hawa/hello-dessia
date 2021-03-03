@@ -1,0 +1,4 @@
+recursive-include test_1/assets *.html *.js *ts *.jpg *.png
+recursive-include scripts *.py
+recursive-include test_1/models *.py
+prune .git
