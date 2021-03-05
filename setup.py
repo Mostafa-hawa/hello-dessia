@@ -97,3 +97,16 @@ def get_version():
 
 
 
+
+
+setup(
+	version=get_version(),
+	name='test_1',
+	description='test',
+	long_description=readme(),
+	author='Mostafa',
+	author_email='mostafa.hawa@eleves.ec-nantes.fr',
+	install_requires=['dessia_common>=0.4.0', 'volmdlr>=0.2.0'],
+	python_requires='>=3.8',
+	packages=find_packages(),
+)
